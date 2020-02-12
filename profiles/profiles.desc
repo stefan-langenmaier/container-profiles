@@ -1,0 +1,10 @@
+#############################################
+#
+#layout:
+#arch		profile_directory				status
+
+# AMD64 Profiles
+amd64           container/amd64                                 dev
+
+# ARM Profiles
+arm             container/arm                                   dev
