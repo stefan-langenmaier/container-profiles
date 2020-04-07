@@ -9,6 +9,6 @@ ACCEPT_KEYWORDS="${ARCH}"
 USE="-man -doc -portage"
 PYTHON_TARGETS="python3_6 -python2_7"
 
-FEATURES="$FEATURES buildpkg binpkg-multi-instance"
+FEATURES="$FEATURES buildpkg binpkg-multi-instance -ipc-sandbox -network-sandbox -pid-sandbox"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --usepkg --binpkg-respect-use=y --binpkg-changed-deps=y"
 
